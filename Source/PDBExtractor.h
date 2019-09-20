@@ -8,9 +8,9 @@
 #include <string>
 
 #define PDBEX_VERSION_MAJOR 0
-#define PDBEX_VERSION_MINOR 11
+#define PDBEX_VERSION_MINOR 18
 
-#define PDBEX_VERSION_STRING "0.11"
+#define PDBEX_VERSION_STRING "0.18"
 
 class PDBExtractor
 {
@@ -81,7 +81,7 @@ class PDBExtractor
 		DumpAllSymbolsOneByOne();
 
 		void
-		CloseOpenedFiles();
+		CloseOpenFiles();
 
 	private:
 		PDB m_PDB;
